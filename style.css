@@ -71,7 +71,8 @@ div.box2{
     box-shadow: -0px -0.4px 0.4px var(--color3);
 
 }
-div.box2 h4{
+div.box2 h2{
+    font-size: 13px;
     margin-top: 20px;
 }
 div.box2  div > p{
