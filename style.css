@@ -51,7 +51,9 @@ div.box > p{
     color: var(--color2);
     margin: 15px 0px;
 }
-div.box div span:nth-child(1){
+div.box div h1:nth-child(1){
+    display: inline;
+    font-size: 18px;
     
     font-weight: bolder;
 
