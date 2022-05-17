@@ -77,3 +77,12 @@ div.box2  div > p{
     font-size: 10px;
     margin: 4px 0px 20px 0px;
 }
+.attribution { font-size: 12px; text-align: center;  color: #fff;}
+    .attribution a {
+        color: #000;
+        text-decoration: none;
+     }
+     .attribution a:hover{
+         text-decoration: underline;
+
+     }
