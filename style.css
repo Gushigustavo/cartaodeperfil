@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+
+    --fontpadrao:'Kumbh Sans', sans-serif;
+    --color0:hsl(185, 75%, 39%);
+    --color1:hsl(229, 23%, 23%);
+    --color2:hsl(227, 10%, 46%);
+    --color3:hsl(0, 0%, 59%);
+}
+body{
+    font-family: var(--fontpadrao);
+    background-color: var(--color0);
+    background-image:url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+    height: 96vh;
+    
+}
+main.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+div.box{
+    text-align: center;
+    border-radius: 20px;
+    background-color: #fff;
+    background-image: url("images/bg-pattern-card.svg");
+    background-repeat: no-repeat;
+    flex-basis: 340px;
+
+}
+div.box > img{
+
+border-radius: 50%;
+border: 4px solid #fff;
+margin-top: 95px;
+margin-bottom: 15px;
+
+}
+div.box > p{
+    font-size: 13px;
+    color: var(--color2);
+    margin: 15px 0px;
+}
+div.box div span:nth-child(1){
+    
+    font-weight: bolder;
+
+}
+div.box div span:nth-child(2){
+    color: var(--color2);
+    margin-left: 5px;
+
+}
+
+div.box2{
+    display: flex;
+    justify-content: space-around;
+
+    box-shadow: -0px -0.4px 0.4px var(--color3);
+
+}
+div.box2 h4{
+    margin-top: 20px;
+}
+div.box2  div > p{
+    color: var(--color2);
+    font-size: 10px;
+    margin: 4px 0px 20px 0px;
+}
